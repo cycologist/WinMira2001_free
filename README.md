@@ -6,7 +6,7 @@ Registration, the serial-number generator and demo mode have been removed. The p
 
 ## Download
 
-Go to the [latest release](../../releases/latest) and download the file for your platform:
+Go to the [latest release](https://github.com/cycologist/WinMira2001_free/releases/latest) and download the file for your platform:
 
 | Platform | File |
 | --- | --- |
