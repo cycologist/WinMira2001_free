@@ -14,8 +14,17 @@ Go to the [latest release](https://github.com/cycologist/WinMira2001_free/releas
 | Windows x86-64 | `winmira2001-windows-x86_64.exe` |
 | macOS Intel | `WINMIRA-2001-macos-x86_64.zip` or `winmira2001-macos-x86_64` |
 | macOS Apple Silicon | `WINMIRA-2001-macos-arm64.zip` or `winmira2001-macos-arm64` |
+| Documentation | `WINMIRA-2001-help.zip` |
 
 `SHA256SUMS` contains the SHA-256 checksums for every asset.
+
+## HTML help / user manual
+
+`WINMIRA-2001-help.zip` contains the original HTML user manual plus the printable PDF version (`winmiramanual.pdf`). Extract it and open `help/index.html` in any web browser. The HTML pages are self-contained; no web server is needed.
+
+On Windows and Linux, place the extracted `help` folder next to the WINMIRA executable. On macOS, place it next to **WINMIRA 2001.app**.
+
+The in-app **Help → Contents** menu entry in the current binaries still shows the port's placeholder message; use `help/index.html` directly.
 
 The macOS `.zip` files contain a ready-to-run **WINMIRA 2001.app** bundle. The raw Mach-O executables are provided for advanced users.
 
