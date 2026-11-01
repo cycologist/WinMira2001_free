@@ -15,6 +15,7 @@ Go to the [latest release](https://github.com/cycologist/WinMira2001_free/releas
 | macOS Intel | `WINMIRA-2001-macos-x86_64.zip` or `winmira2001-macos-x86_64` |
 | macOS Apple Silicon | `WINMIRA-2001-macos-arm64.zip` or `winmira2001-macos-arm64` |
 | Documentation | `WINMIRA-2001-help.zip` |
+| Example data | `WINMIRA-2001-examples.zip` |
 
 `SHA256SUMS` contains the SHA-256 checksums for every asset.
 
@@ -27,6 +28,20 @@ The macOS `.zip` files contain a ready-to-run **WINMIRA 2001.app** bundle. The r
 On Windows and Linux, place the extracted `help` folder next to the WINMIRA executable. On macOS, place it next to **WINMIRA 2001.app**.
 
 The in-app **Help → Contents** menu entry in the current binaries still shows the port's placeholder message; use `help/index.html` directly.
+
+## Example data
+
+`WINMIRA-2001-examples.zip` contains example data sets from the original WINMIRA package, prepared for the current importer:
+
+| File | Cases | Items | Categories |
+| --- | ---: | ---: | --- |
+| `examples/ascii/Kft.dat` | 300 | 15 | 0–1 |
+| `examples/ascii/Esu.dat` | 800 | 5 | 0–3 |
+| `examples/ascii/Neoffi.dat` | 1000 | 10 | 0–3 |
+| `examples/ascii/Simula9x_items.dat` | 2001 | 10 | 0–3 |
+| `examples/ascii/Simula9z_items.dat` | 999 | 10 | 0–1 |
+
+The archive also includes `with_class` variants of the Simula files, SPSS versions (`Kft.sav`, `Simula9x.sav`), original fixed-width files, and the original definition/fixation files. Open the ASCII files with **File → Open** using the freefield format and separator `Space`; open the `.sav` files with **File → Open Spss Data**.
 
 ## macOS notes
 
