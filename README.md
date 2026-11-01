@@ -18,6 +18,8 @@ Go to the [latest release](https://github.com/cycologist/WinMira2001_free/releas
 
 `SHA256SUMS` contains the SHA-256 checksums for every asset.
 
+The macOS `.zip` files contain a ready-to-run **WINMIRA 2001.app** bundle. The raw Mach-O executables are provided for advanced users.
+
 ## HTML help / user manual
 
 `WINMIRA-2001-help.zip` contains the original HTML user manual plus the printable PDF version (`winmiramanual.pdf`). Extract it and open `help/index.html` in any web browser. The HTML pages are self-contained; no web server is needed.
@@ -25,8 +27,6 @@ Go to the [latest release](https://github.com/cycologist/WinMira2001_free/releas
 On Windows and Linux, place the extracted `help` folder next to the WINMIRA executable. On macOS, place it next to **WINMIRA 2001.app**.
 
 The in-app **Help → Contents** menu entry in the current binaries still shows the port's placeholder message; use `help/index.html` directly.
-
-The macOS `.zip` files contain a ready-to-run **WINMIRA 2001.app** bundle. The raw Mach-O executables are provided for advanced users.
 
 ## macOS notes
 
