@@ -40,7 +40,7 @@ The Apple Silicon build is native arm64; it does not need Rosetta. The Intel bui
 
 Both macOS builds use the Cocoa widgetset and include the fixes for:
 
-- showing the ASCII import dialog **before** the data window is created, and
+- showing the ASCII import dialog **before** the data window is created;
 - loading the imported data into the grid without relying on Cocoa's missing MDI implementation;
 - running more than one latent class without the "Access denied" error caused by writing temporary parameter files into the read-only working directory.
 
